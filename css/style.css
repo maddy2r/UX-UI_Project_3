@@ -2,5 +2,35 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    background: #F1F0EA;
+    font-family: 'Barlow', sans-serif;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+p {
+    font-size: 18px;
+    font-weight: 600;
+}
+/*Hero*/
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #F1F0EA;
+}
+.hero img {
+    padding: 30px;
+}
+/*6 cards*/
+.sixcards {
+    background-color: #F1F0EA;
+}
+.card {
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
 }
