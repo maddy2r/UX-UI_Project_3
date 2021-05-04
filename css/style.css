@@ -9,7 +9,6 @@
     color: #393733;
     background: #F1F0EA;
 }
-
 h1 {
     font-size: 48pt;
     font-weight: 800;
@@ -56,8 +55,31 @@ p {
     font-size: 16pt;
     margin: 2px 0px 0px;
     padding: 8px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dropdown-item:hover {
+  color: #F1F0EA;
+  background-color: #C6481B;
+}
+.btn:hover { 
+  background-color: #C6481B;
+  border-color: #C6481B;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.donate {
+  background-color: #93AF81;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 40px;
+}
+.donate:hover {
+  color:#F1F0EA;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*Hero*/
+.img-fluid {
+  width: 100vw;
+}
 .hero {
     text-align: center;
     padding: 20px;
@@ -68,16 +90,25 @@ p {
 }
 /*6 cards*/
 .sixcards {
-    background: #FFFFFF;
+    background: #F1F0EA;
 }
 .card {
-    padding: 10px;
+  background: #ffffff;  
+  padding: 10px;
     margin: 20px;
     align-items: center;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-body {
+  text-decoration: none;
 }
 /*Education & Emplpyment Resources*/
+.image-cards {
+  background: #F1F0EA;
+}
 .headerspacing {
     background: #F1F0EA;
     padding-top: 141px;
@@ -91,175 +122,45 @@ p {
     margin-top: 15px;
     margin-bottom: 28px;
 }
+.col img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .btn-primary {
     margin-top: 30px;
     background-color: #93AF81;
     border: solid #93AF81;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/*i give up*/
+.igiveup {
+  background: #F1F0EA;
+  padding: 115px;
+}
 /*footer*/
 .footer {
-    margin-top: 115px;
+  background-color: #393733;
+  height: 284px;
+  color: #F1F0EA;
+  padding: 60px;
+  font-size: 10pt;
+  align-items: center;
+  font-weight: 600;
 }
 .footerText {
     padding-top: 40px;
 }
-.dropdown-divider {
-    border-top: 1px solid #F1F0EA;
-}
-.hero {
-    width: 100vw;
-}
-.list {
-    padding-bottom: 30px;
-}
 
-
-
-
-
-
-
-/*IDK WHY I NEED IT LOL */
-.navbar {
-    min-height: 140px;
-    background-color: #DFA213;
-    color: #393733;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 800;
-  }
-  
-  .bg-light {
-    background-color: #DFA213;
-  }
-  
-  .form-inline {
-    background-color: #E8C97E;
-    font-family: 'Barlow', sans-serif;
-  }
-  
-  .form-control {
-    background-color: #E8C97E;
-    border-color: #E8C97E ;
-    font-family: 'Barlow', sans-serif;
-  }
-  
-  .btn-outline-success {
-    background-color: #E8C97E;
-    color: #C6481B;
-    border-color: #C6481B;
-  }
-  
-  .body {
-    font-family: 'Barlow', sans-serif;
-    color: #393733;
-    background-color: #F1F0EA;
-    text-align: center;
-  }
-  
-  .title {
-    font-size: 48pt;
-    font-weight: 800;
-    padding: 20px;
-  }
-  
-  .sub {
+/* Google Pixel media query*/
+/* Portrait */
+ 
+@media only screen and (max-width: 600px){
+  h1 {
     font-size: 24pt;
-    font-weight: 800;
-    padding-top: 50px;  
-    padding-bottom: 12px;
-  
   }
-  
-  .copy {
+  h2 {
     font-size: 18pt;
-    font-weight: 400;
-    padding: 15px;
-    padding-bottom: 30px;
-    margin-left: 50px;
-    margin-right: 50px3;
   }
-   .cards {
-     display: flex;
-     height: 390px;
-   }
-  
-   .btn:hover { 
-    background-color: #C6481B;
-    border-color: #C6481B;
-   }
-   .greenband {
-     background-color: #93AF81;
-     color: #F1F0EA;
-     text-align: center;
-     height: 370px;
-     align-items: center;
-     padding: 50px;
-   }
-  
-  
-   .h4 {
-    font-size: 24pt;
-    align-items: center;
-    font-weight: 700;
-    padding: 15px;
-  
+  p {
+    font-size: 13pt;
   }
-   .h5 {
-     font-size: 18pt;
-     align-items: center;
-     font-weight: 600;
-   }
-  
-   .donate {
-     background-color: #93AF81;
-     padding-left: 30px;
-     padding-right: 30px;
-     margin-right: 40px;
-   }
-  
-   .list {
-     text-align: left;
-     margin-left: 150px;
-     margin-right: 150px;
-     padding: 15px;
-   }
-   .footer {
-     background-color: #393733;
-     height: 284px;
-     color: #F1F0EA;
-     padding: 60px;
-     font-size: 10pt;
-     align-items: center;
-     font-weight: 600;
-   }
-  
-   .dropdown-menu{
-    background-color: #DFA213;
-    border-left: 1px solid #F1F0EA;
-  
-  }
-  
-  .dropdown-item:hover {
-    color: #F1F0EA;
-    background-color: #C6481B;
-  }
-  .card-body {
-    padding: 24px;
-    height: 390px;
-  
-  }
-  
-  .footerText {
-   padding-top: 40px;
-  }
-  
-  .dropdown-divider {
-    border-top: 1px solid #F1F0EA;
-  }
-  .hero {
-    width: 100vw;
-  }
-  .list {
-    padding-bottom: 30px;
-  }
+}
