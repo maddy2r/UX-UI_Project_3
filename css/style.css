@@ -43,6 +43,7 @@ p {
     background-color: #E8C97E;
     border-color: #E8C97E ;
     font-family: 'Barlow', sans-serif;
+    font-weight: 500;
 }
 .btn-outline-success {
     background-color: #E8C97E;
@@ -71,6 +72,7 @@ p {
   padding-left: 30px;
   padding-right: 30px;
   margin-right: 40px;
+  font-weight: 500;
 }
 .donate:hover {
   color:#F1F0EA;
